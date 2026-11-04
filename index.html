@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV Dialer - AI Calling Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <button id="theme-btn" class="theme-btn">Toggle Light/Dark Mode</button>
+
+    <header class="site-header">
+        <div class="logo">DEV Dialer</div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="btn-primary" style="padding: 8px 18px; font-size: 14px;">Book Demo</a>
+    </header>
+
+    <main>
+        
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1>AI Calling That Converts More Leads.</h1>
+                <!-- Task 8: status banner under the h1 (filled in by JavaScript) -->
+                <p id="status"></p>
+                <p>Automate outbound and inbound calls with human-like AI voice agents. Increase conversations, qualify leads, book appointments, and close more deals — 24/7.</p>
+                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                    <a href="#contact" class="btn-primary">Book a Demo</a>
+                    <a href="#pricing" class="btn-primary" style="background-color: transparent; border: 2px solid #02A3B1; color: #02A3B1;">Start Free Trial</a>
+                </div>
+            </div>
+            
+            <div class="hero-image-container">
+               <img src="logo.jpeg" alt="DEV Dialer AI Calling" class="product-image">
+            </div>
+        </section>
+
+        <section class="content-section" style="text-align: center;">
+            <h2>Trusted By Industry Leaders</h2>
+            <p style="margin-bottom: 25px;">Empowering modern sales teams, agencies, and customer service hubs.</p>
+            <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                <span style="background: #FFFFFF; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #1A1A2E; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">Sales Teams</span>
+                <span style="background: #FFFFFF; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #1A1A2E; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">Agencies</span>
+                <span style="background: #FFFFFF; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #1A1A2E; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">Call Centers</span>
+                <span style="background: #FFFFFF; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #1A1A2E; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">Real Estate</span>
+                <span style="background: #FFFFFF; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #1A1A2E; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">Insurance</span>
+                <span style="background: #FFFFFF; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #1A1A2E; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">Healthcare</span>
+            </div>
+        </section>
+
+        <section id="services" class="content-section">
+            <h2>Why DEV Dialer</h2>
+            <div class="card-container">
+                <article class="card">
+                    <h3>AI Voice Agents</h3>
+                    <p>Natural conversations powered by advanced conversational AI models.</p>
+                    <a href="#" class="card-link">Learn More &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <h3>Smart Lead Qualification</h3>
+                    <p>Automatically qualifies prospects before sending them directly to your sales team.</p>
+                    <a href="#" class="card-link">Learn More &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <h3>Appointment Booking</h3>
+                    <p>Books meetings seamlessly into your calendar system without human friction.</p>
+                    <a href="#" class="card-link">Learn More &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Quick Integration Workflow</h2>
+            <p style="margin-bottom: 20px;">Get your AI voice pipelines active through our streamlined process:</p>
+            <ol class="abc-list">
+                <li>Upload your lead lists securely into the dashboard console.</li>
+                <li>Create and customize your AI calling campaign scripts.</li>
+                <li>Let the AI engine execute outbound calls and sync responses instantly.</li>
+            </ol>
+        </section>
+
+        <section id="pricing" class="content-section">
+            <h2>Carrier Gateway Rates & Tier Comparison</h2>
+            <table class="specs-table">
+                <thead>
+                    <tr>
+                        <th>Plan Tier</th>
+                        <th>Concurrent Channels</th>
+                        <th>Outbound Rate</th>
+                        <th>SLA Uptime</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Starter Sandbox</td>
+                        <td>Up to 5 Calls</td>
+                        <td>$0.02 / min</td>
+                        <td>99.0%</td>
+                    </tr>
+                    <tr>
+                        <td>Growth Pro</td>
+                        <td>Up to 50 Calls</td>
+                        <td>$0.012 / min</td>
+                        <td>99.9%</td>
+                    </tr>
+                    <tr>
+                        <td>Enterprise Grid</td>
+                        <td>Unlimited Concurrency</td>
+                        <td>Custom Pricing</td>
+                        <td>99.99%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="addon-heading">Optional Add-ons (per month)</h3>
+
+            <div class="filters">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="voice">Voice</button>
+                <button class="filter-btn" data-filter="integrations">Integrations</button>
+            </div>
+
+            <ul class="addon-list">
+                <li data-category="voice">
+                    <label><input type="checkbox" class="addon-check" value="10"> Call Recording - $10</label>
+                </li>
+                <li data-category="voice">
+                    <label><input type="checkbox" class="addon-check" value="25"> Custom AI Voice - $25</label>
+                </li>
+                <li data-category="integrations">
+                    <label><input type="checkbox" class="addon-check" value="15"> CRM Integration - $15</label>
+                </li>
+                <li data-category="integrations">
+                    <label><input type="checkbox" class="addon-check" value="20"> Calendar Sync - $20</label>
+                </li>
+            </ul>
+
+            <p id="total">Total: $0</p>
+        </section>
+
+        <section id="about" class="content-section">
+            <article>
+                <h2>About Us</h2>
+                <p>
+                    DEV Dialer is built by DEVSYNX to help sales teams talk to more people
+                    without hiring more callers.
+                </p>
+                <p id="extra-text" style="display: none;">
+                    Our AI voice agents handle outbound and inbound calls around the clock,
+                    qualify leads, and book meetings straight into your calendar. We started
+                    with a small team of developers and now support agencies, call centers,
+                    and growing businesses across many industries.
+                </p>
+                <button id="read-more-btn" class="filter-btn">Read More</button>
+            </article>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Request Sandbox API Access & Demo</h2>
+            <form action="#" method="POST" class="order-form" id="contact-form">
+                <div class="form-group">
+                    <label for="devname">Your Name:</label>
+                    <input type="text" id="devname" name="devname" required placeholder="Emaan Ahmed">
+                </div>
+
+                <div class="form-group">
+                    <label for="dev-email">Work Email:</label>
+                    <input type="email" id="dev-email" name="dev-email" required placeholder="emaan@devsynx.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="birth-year">Birth Year (for student / senior discount):</label>
+                    <input type="text" id="birth-year" name="birth-year" placeholder="e.g. 2002">
+                </div>
+
+                <div class="form-group">
+                    <label>Select Cloud Infrastructure Region:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="region" value="us-east" checked> US East (Virginia)</label>
+                        <label><input type="radio" name="region" value="eu-central"> EU Central (Frankfurt)</label>
+                        <label><input type="radio" name="region" value="ap-south"> AP South (Mumbai)</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="special-notes">Special Instructions:</label>
+                    <textarea id="special-notes" name="special-notes" maxlength="100" rows="4"></textarea>
+                    <p id="char-count">100 characters remaining</p>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox" name="sandbox-terms" required> I agree to the Developer Terms of Service and API Usage Limits.
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">Generate API Credentials</button>
+            </form>
+
+            <p id="form-message"></p>
+            <p id="discount-message"></p>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 DEVSYNX PRIVATE LIMITED. All rights reserved. | info@devsynx.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
